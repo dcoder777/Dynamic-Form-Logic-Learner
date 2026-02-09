@@ -1,0 +1,42 @@
+.dfll-dashboard .dfll-panel-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 16px;
+  margin: 16px 0;
+}
+
+.dfll-dashboard .dfll-card {
+  background: #fff;
+  border: 1px solid #dcdcde;
+  border-radius: 6px;
+  padding: 16px;
+}
+
+#dfll-flow-editor {
+  min-height: 160px;
+}
+
+.dfll-flowchart {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  overflow-x: auto;
+}
+
+.dfll-node {
+  background: #f6f7f7;
+  border: 1px dashed #8c8f94;
+  border-radius: 6px;
+  padding: 10px 14px;
+  font-weight: 600;
+  cursor: move;
+}
+
+.dfll-arrow {
+  color: #2271b1;
+  font-size: 20px;
+}
+
+.dfll-suggestion-list li {
+  margin-bottom: 12px;
+}
